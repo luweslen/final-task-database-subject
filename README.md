@@ -11,8 +11,3 @@
     2.2.3) DML commands to implement 15 queries to the database data with the respective statements.
 
 3) Final Delivery Date: 12/05/2021 - through the classroom
-## Files Description
-
-### script.sql
-### der.png
-
