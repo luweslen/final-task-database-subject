@@ -385,13 +385,15 @@ insert into schedules(class_id, subject_id, professor_id, semester_id, weekday, 
 
 ---------- QUERY 13 | CONSULTA 13
 -- Selecionar o nome das disciplinas que possuem a palavra "Programação" no nome.
+-- Select the name of the courses that have the word "Programação" in the name.
 
 -- select subjects.name
 --   from subjects 
 --   where (subjects.name like "%Programação%");
 
 ---------- QUERY 14 | CONSULTA 14
--- Selecionar o primeiro nome dos usuários com email e phone nulos. Ordenar por ordem crescente do primeiro nome.
+-- Selecionar o primeiro nome dos usuários com email e telefone nulos. Ordenar por ordem crescente do primeiro nome.
+-- Select the first name of users with null email and null phone. Sort in ascending order of first name.
 
 -- select users.first_name
 --   from users 
@@ -401,6 +403,7 @@ insert into schedules(class_id, subject_id, professor_id, semester_id, weekday, 
 
 ---------- QUERY 15 | CONSULTA 15
 -- Selecionar o nome das disciplinas do segundo semestre.
+-- Select the name of the disciplines for the second semester.
 
 -- select subjects.name
 --   from subjects 
